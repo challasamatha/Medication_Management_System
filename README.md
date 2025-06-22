@@ -6,8 +6,8 @@ A full-stack Medication Management System for patients and caretakers. The app a
 
 ## 🚀 Live Demo
 
-Frontend: [Vercel Live Link](#)  
-Backend API: [Render Live Link](#) *(if deployed)*
+Frontend:   
+
 
 ---
 
@@ -33,11 +33,8 @@ Backend API: [Render Live Link](#) *(if deployed)*
   - Add/view medications
   - Mark as taken
   - Adherence tracking
-- **File Upload**:
-  - Upload proof of medication
 - **Real-Time Updates**:
   - Medication list updated every 10 seconds (polling)
-- **Notification Preferences** (UI only)
 - **Testing**:
   - Vitest-based unit tests
 
@@ -51,9 +48,66 @@ Backend API: [Render Live Link](#) *(if deployed)*
 | Backend   | Node.js, Express, SQLite, JWT, bcrypt,        |
 | Auth      | JWT-based Authentication                      |
 | Testing   | Vitest, React Testing Library                 |
-| Deployment| Vercel (Frontend), Render (Backend)           |
+| Deployment| Vercel (Frontend), Postman (Backend)          |
 
 ---
 
 ## 📁 Project Structure
 
+medication-management-system/
+│
+├── backend/
+│ ├── db/
+│ ├── routes/
+│ ├── middleware/
+│ ├── uploads/
+│ ├── server.js
+│ └── package.json
+│
+├── frontend/
+│ ├── src/
+│ │ ├── api/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── pages/
+│ │ ├── App.js
+│ │ └── index.js
+│ └── package.json
+│
+└── README.md
+
+
+## ⚙️ Setup Instructions
+
+### 📦 Backend Setup
+
+```bash
+cd backend
+npm install
+touch .env
+# Add: JWT_SECRET=your_secret_key
+node server.js
+
+
+🚀 Deployment
+🔹 Frontend – Vercel
+Connect GitHub repo
+
+Set build command: npm run build
+
+Output directory: build
+
+🔹 Backend – Postman
+New Web Service
+'http://localhost:5000/api'
+Build command: npm install
+
+Start command: node server.js
+
+Add environment variable: JWT_SECRET
+
+
+🙌 Contributors
+Developer: Challa Samatha
+
+Contact: samathachowdary2004@gmail.com
