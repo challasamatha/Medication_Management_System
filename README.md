@@ -1,15 +1,6 @@
 # 🏥 Medication Management System
 
-A full-stack Medication Management System for patients and caretakers. The app allows users to register/login, manage medications, view adherence stats, upload medication proof, and monitor medication status with role-based dashboards.
-
----
-
-## 🚀 Live Demo
-
-Frontend:   
-
-
----
+A full-stack Medication Management System for patients and caretakers. The app allows users to register/login, manage medications, view adherence stats, upload medication proof, and monitor medication status with role-based dashboard.
 
 ## 🧩 Features
 
@@ -39,6 +30,15 @@ Frontend:
   - Vitest-based unit tests
 
 ---
+Home Page:
+![Screenshot (37)](https://github.com/user-attachments/assets/efe21c09-dab9-4b17-bf48-02a4296a90f4)
+Patient Dashboard:
+![Screenshot (38)](https://github.com/user-attachments/assets/e3e2beb7-244d-4a95-97f6-0adfe181cb43)
+CareTaker Dashboard:
+![Screenshot (39)](https://github.com/user-attachments/assets/651b1cc8-ab4a-4517-ade9-4eb9d1a51a15)
+
+
+
 
 ## 🛠 Tech Stack
 
@@ -48,9 +48,10 @@ Frontend:
 | Backend   | Node.js, Express, SQLite, JWT, bcrypt,        |
 | Auth      | JWT-based Authentication                      |
 | Testing   | Vitest, React Testing Library                 |
-| Deployment| Vercel (Frontend), Postman (Backend)          |
+        
 
 ---
+
 
 ## 📁 Project Structure
 
