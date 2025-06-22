@@ -93,7 +93,7 @@ node server.js
 🚀 Deployment
 🔹 Frontend – Vercel
 Connect GitHub repo
-
+'http://localhost:5173'
 Set build command: npm run build
 
 Output directory: build
